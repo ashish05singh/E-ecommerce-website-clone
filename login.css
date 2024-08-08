@@ -1,0 +1,180 @@
+/* Universal Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Body and Background */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000000;
+}
+.icon-logo img{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    margin: -3% -42%;
+}
+.icon-logo p{
+font-size: 30px;
+
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url("image/empty-road-dark-atmosphere.jpg") no-repeat center center;
+    opacity: 0.5;
+    background-size: cover;
+    animation: animate 5s linear infinite; /* Apply animation */
+}
+
+/* Keyframes for Animation */
+@keyframes animate {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+/* Login Box Styles */
+.login-box {
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background: transparent;
+    border-radius: 20px;
+    border: 2px solid white;
+    width: 400px;
+    height: 450px;
+    align-items: center;
+    color: #ffffff;
+    backdrop-filter: blur(15px);
+}
+
+/* Heading Style */
+h2 {
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+/* Input Box Styles */
+.input-box {
+    position: relative;
+    width: 310px;
+    margin: 30px 10px;
+    border-bottom: 2px solid #fff;
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    line-height: 50px;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: rgb(250, 248, 248);
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.input-box input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    padding: 0 8px 0 40px; /* Add space for icon */
+}
+
+.input-box input:focus ~ label,
+.input-box input:valid ~ label {
+    top: -5px;
+}
+/* .input-box label :focus ~ label,
+.input-box label :valid ~ label {
+    top: 5px;
+
+} */
+
+/* Remember-Forgot Section */
+.remember-forgot {
+    margin: -15px  15px ;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 14px;
+}
+
+.remember-forgot label input {
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+/* Button Style */
+button {
+    width: 100%;
+    height: 36px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    color: #000;
+}
+
+/* Register Link Section */
+.register-link {
+    font-size: 14px; /* Adjusted from 9em */
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media(max-width: 360px) {
+    .login-box {
+        width: 100%;
+        height: 100vh;
+        border-radius: 0;
+    }
+}

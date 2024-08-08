@@ -1,0 +1,21 @@
+.image-about img{
+    width: 660px;
+    height: 377px;
+
+}
+.text-about p{
+    text-align: justify;
+    font-size: 13px;
+    line-height: 1.2em;
+    line-height: 25px;
+    
+ 
+}
+.text-about h3{
+ text-align: center;   
+
+}
+
+.clint-review{
+    overflow: hidden;
+}

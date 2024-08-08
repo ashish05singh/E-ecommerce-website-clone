@@ -1,0 +1,107 @@
+.image-about img{
+    width: 660px;
+    height: 377px;
+
+}
+.text-about p{
+    text-align: justify;
+    font-size: 13px;
+    line-height: 1.2em;
+    line-height: 25px;
+    
+ 
+}
+.text-about h3{
+ text-align: center;   
+
+}
+
+.clint-review{
+    overflow: hidden;
+}
+
+/* -------------Registration sec start--------------------------------------- */
+
+.one-start-sec{
+
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    color: #444;
+
+
+}
+ legend{
+    margin-top: 20px;
+    text-transform: uppercase;
+  
+}
+p{
+    font-size: 12px;
+
+}
+.start-new-sec {
+
+border: 1px solid #b4b1b1;
+background-color: #faf9f9;
+height:600px;
+width: 400px;
+text-align: center;
+display:flex;
+flex-direction:column;
+color: #444;
+font-weight: 600;
+letter-spacing: 1px;
+align-items: center;
+text-transform: uppercase;
+margin-left: 35%;
+padding: 20px;
+box-shadow: 7px 10px 10px #888888;
+font-size: 12px;
+}
+.start-new-sec input{
+    height: 28px;
+    width: 300px;
+    padding: 10px;
+    margin: 15px;
+    border: 1px solid #b4b1b1 ;
+    box-shadow: 5px 5px 5px #888888;
+}
+.from-sec{
+    /* background-image: url("image/empty-road-dark-atmosphere.jpg"); */
+    /* opacity: 0.5; */
+    background-size: cover;
+    animation: animate 5s linear infinite;
+    background-repeat: no-repeat;
+    /* background: transparent; */
+    background-filter: blur(15px);
+}
+select{
+    height: 30px;
+    width: 300px;
+    margin: 15px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    border: 1px solid #b4b1b1 ;
+    box-shadow: 5px 5px 5px #888888;
+   
+}
+.button{
+ 
+    text-transform:uppercase; 
+   /* margin-left: 10%; */
+   display: flex;
+   
+}
+.btn{
+    color: white;
+    background-color: magenta;
+    font-weight: 400;
+    border-radius: 50px;
+    padding:7px;
+    margin: 10px;
+    width: 100px;
+    box-shadow: 2px 2px 5px magenta;
+    border-color: magenta;
+
+}
